@@ -1,0 +1,70 @@
+.task-container {
+    background-color: #f0f0f0;
+    color: $darkBlue;
+    padding: rem(5px);
+    margin: rem(10px) rem(5px);
+    border-radius: rem(5px);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 rem(3px) 0 rgba(29, 29, 29, 0.5);
+
+    .task-details {
+        width: 80%;
+        h2,
+        .description-container,
+        .importance,
+        .created-at,
+        .last-tried-at,
+        .tries-count,
+        .done-at {
+            display: flex;
+            align-items: center;
+        }
+        h2 {
+            font-size: 1.2rem;
+            margin: rem(5px) 0 rem(2px);
+        }
+        textarea {
+            width: 50%;
+            height: rem(50px);
+            font-family: inherit;
+            border: none;
+            border-radius: rem(5px);
+            resize: none;
+            display: block;
+        }
+        .task-code {
+            font-size: 0.65rem;
+            margin: 0 0 rem(10px);
+        }
+        .sub-section {
+            font-weight: 600;
+            margin: 0 rem(5px);
+        }
+        .description-container {
+            align-items: flex-start;
+            svg {
+                margin: rem(3px) 0;
+            }
+            .description {
+                flex-direction: column;
+                width: 100%;
+                margin: 0 rem(5px);
+                .sub-section {
+                    margin: 0;
+                }
+            }
+        }
+        .done{
+            color:green;
+        }
+        .not-done{
+            color:darkred;
+        }
+    }
+    .task-actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

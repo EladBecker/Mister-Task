@@ -1,0 +1,19 @@
+.task-manager {
+    background-color: lightgrey;
+    max-width: rem(650px);
+    margin: rem(10px) auto;
+    padding: rem(10px);
+    border-radius: rem(5px);
+    box-shadow: 0 0 rem(5px) rem(1px) rgba(29, 29, 29, 0.5);
+
+    h1 {
+        text-align: center;
+        margin: rem(10px) 0;
+        font-weight: 800;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}

@@ -1,0 +1,15 @@
+
+// setup
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+@import "setup/variables.scss";
+
+// base
+@import "basic/base.scss";
+@import "basic/buttons.scss";
+
+// cmps & pages
+@import "pages/task-manager.scss";
+@import "cmps/task.scss";
+@import "cmps/add-task.scss";

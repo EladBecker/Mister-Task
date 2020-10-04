@@ -1,0 +1,25 @@
+
+.btn-approve,
+.btn-cancel {
+    border: none;
+    border-radius: rem(5px);
+    color: $white;
+    height: rem(30px);
+    width: rem(80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 rem(10px);
+    cursor: pointer;
+}
+.btn-approve {
+    background-color: $approveClr;
+    &:disabled {
+        background-color: darkgray;
+        color: rgb(104, 104, 104);
+        cursor: default;
+    }
+}
+.btn-cancel {
+    background-color: $cancelClr;
+}

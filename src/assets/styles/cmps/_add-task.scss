@@ -1,0 +1,26 @@
+.add-task-container {
+    background-color: #f0f0f0;
+    color: $darkBlue;
+    padding: rem(5px);
+    margin: rem(10px) rem(5px);
+    border-radius: rem(5px);
+    box-shadow: 0 0 rem(3px) 0 rgba(29, 29, 29, 0.5);
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input,
+        select,
+        button {
+            height: rem(30px);
+            margin: 0 rem(5px);
+            width: fit-content;
+            border-radius: rem(5px);
+            border:rem(1px) solid $black;
+        }
+        input {
+            width: 40%;
+            padding-inline-start: rem(5px);
+        }
+    }
+}
